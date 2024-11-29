@@ -11,7 +11,7 @@ body {
 
     height: 100%;
     width: 100%;
-
+    overflow-x: hidden;
 
 }
 
@@ -37,7 +37,7 @@ header {
     justify-content: space-between;
     padding: 3vh;
     background: skyblue;
-     
+    align-items: center;
 
 }
 
@@ -83,6 +83,35 @@ header {
     font-size: 14px;
     color: whitesmoke;
 }
+
+.mobile-navbar-btn {
+
+
+    display: none;
+    margin-right: 15px;
+    cursor: pointer;
+    background: transparent;
+
+}
+
+
+
+.mobile-navbar-icon1,
+.mobile-navbar-icon2 {
+
+
+    font-size: 30px;
+
+
+}
+
+.mobile-navbar-icon2 {
+
+    display: none;
+
+
+}
+
 
 
 /* intro-section styling */
@@ -222,9 +251,9 @@ header {
 
 .work-container {
 
-background-color: rgb(10, 19, 19);
-border-radius: 5px 5px 0 0;
- 
+    background-color: rgb(10, 19, 19);
+    border-radius: 5px 5px 0 0;
+    display: none;
 
 }
 
@@ -235,8 +264,8 @@ border-radius: 5px 5px 0 0;
     gap: 3vw;
     justify-content: center;
     margin-top: 25px;
-   
-   
+
+
 
 }
 
@@ -268,7 +297,7 @@ border-radius: 5px 5px 0 0;
 }
 
 
-.work-list:hover{
+.work-list:hover {
 
     transform: scale(1.1);
 
@@ -309,69 +338,67 @@ border-radius: 5px 5px 0 0;
 /* project section styling */
 
 
-.project-container h2{
-
-text-align: center;
-font-size: 3.4vw;
-
-}
-
-.project-list{
-
-
-display: flex;
-gap: 20px;
+.project-container h2 {
+margin-top: 8px;
+    text-align: center;
+    font-size: 3.4vw;
 
 }
 
-.project{
+.project-list {
 
- background: skyblue;
-width: 20%;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 20px;
-padding: 10px 10px 20px 10px;
-border-radius: 5px;
-transition: all .5s;
-}
-
-.project:hover{
-
-transform: scale(1.1);
+margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 
 }
 
-.project-img img{
+.project {
 
-width: 8vw;
-height: 8vw;
+    background: skyblue;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.project:hover {
+
+    transform: scale(1.1);
 
 }
 
-.project-info p{
+.project-img img {
 
-
-font-family: sans-serif;
-font-size: 1.7vw;
-text-align: center;
-}
-
-.project-info a{
-display: block;
-font-family: sans-serif;
-text-align: center;
-text-decoration: none;
-color: blue;
+    width: 8vw;
+    height: 8vw;
 
 }
 
-.project-info a:hover{
+.project-info p {
 
-color: crimson;
+
+    font-family: sans-serif;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.project-info a {
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
 
 }
 
+.project-info a:hover {
 
+    color: crimson;
 
+}

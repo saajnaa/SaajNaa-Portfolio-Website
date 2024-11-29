@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+
+
+    /* ==== Responsive nav bar button code ==== */
+
+    .mobile-navbar-btn {
+
+        display: block;
+        margin-right: 20px;
+        border: 3px solid rgb(113, 6, 24);
+
+    }
+
+    .nav-list {
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 84px;
+        width: 50%;
+        background: skyblue;
+        padding: 30px;
+        transform: translateX(200%);
+
+    }
+
+
+    .active .nav-list {
+
+
+        transform: translateX(100%);
+
+    }
+
+    .active .mobile-navbar-icon2 {
+
+        display: block;
+
+
+    }
+
+
+    .active .mobile-navbar-icon1 {
+
+        display: none;
+
+
+    }
+
+
+}
