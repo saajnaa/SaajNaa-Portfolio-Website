@@ -402,3 +402,76 @@ margin-top: 20px;
     color: crimson;
 
 }
+
+
+
+/* ========= footer section styling =========== */
+
+
+footer{
+
+background: skyblue;
+
+padding: 20px 0;
+}
+
+.footer-p1{
+
+font-family: sans-serif;
+font-size: 2vw;
+color: green;
+text-align: center;
+
+}
+
+
+.footer-p1 .icon{
+
+color: green;
+
+
+}
+
+
+.footer-p2{
+
+display: flex;
+justify-content: center;
+
+
+}
+
+
+
+.footer-p2 a{
+
+
+ 
+text-align: center;
+font-family: sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: rgb(7, 8, 41);
+text-decoration: none;
+margin: 5px 0;
+
+}
+
+.footer-p2 a:hover{
+
+
+    color: green;
+    
+    }
+
+
+    .footer-p3{
+
+
+        font-family: sans-serif;
+        font-size: 1.5vw;
+        color: blue;
+        text-align: center;
+
+
+    }
