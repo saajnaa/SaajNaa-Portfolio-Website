@@ -35,18 +35,41 @@ header {
 
     display: flex;
     justify-content: space-between;
-    padding: 3vh;
+    padding: 5px 0px 5px 20px;
     background: skyblue;
     align-items: center;
 
 }
 
-.nav h2 {
+.logo {
 
-    margin-left: 2vw;
-    font-weight: 700;
-    font-size: 2vw;
-    color: rgb(11, 11, 82);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo>img {
+
+
+
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    border: 2px solid rgb(17, 83, 216);
+    cursor: pointer;
+
+
+}
+
+.logo h2 {
+
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 8px;
+    cursor: pointer;
+    color: rgb(39, 8, 109);
+
 }
 
 .nav ul {
@@ -121,7 +144,10 @@ header {
 
 .intro-container {
     display: flex;
+    flex-direction: row;
+    gap: 8px;
     justify-content: center;
+    align-items: center;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -132,9 +158,30 @@ header {
 
 }
 
+.img {
+
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(7, 132, 181, 0.927);
+    margin-top: 12px;
+    border-radius: 5px;
+
+}
+
+.img img {
+
+    width: 35vw;
+    height: 35vw;
+    margin: auto;
+    border-radius: 3px;
+
+}
+
+
 .intro {
 
-    width: 70%;
+
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -142,7 +189,7 @@ header {
 
 }
 
-.intro .p1 {
+.p1 {
 
     font-size: 3.2vw;
     color: #f0f2f4;
@@ -152,12 +199,12 @@ header {
     margin-top: 20px;
 }
 
-.intro .p1>span {
+.p1>span {
     color: crimson;
 
 }
 
-.intro .p2 {
+.p2 {
 
     font-size: 2.4vw;
     color: #52ed15;
@@ -167,35 +214,25 @@ header {
 
 }
 
-.intro .p2>span {
+.p2>span {
 
 
     color: crimson;
-}
-
-.intro .p3 {
-
-    color: #1777d7c9;
-    font-family: sans-serif;
-    line-height: 5vh;
-    margin-top: 20px;
 }
 
 
 .intro-btn {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
     justify-content: center;
-    padding: 5px;
-    margin-top: 20px;
-
+    
 }
 
 .intro-btn button {
 
-    width: 40%;
+    width: 200px;
     height: 40px;
     font-family: sans-serif;
     border-radius: 20px;
@@ -225,23 +262,6 @@ header {
 }
 
 
-.img {
-
-    width: 30%;
-    margin-right: 2vw;
-    display: flex;
-    justify-content: center;
-
-}
-
-.img img {
-
-    width: 35vw;
-    height: 35vw;
-    margin: auto;
-    border-radius: 3px;
-
-}
 
 
 
@@ -339,7 +359,7 @@ header {
 
 
 .project-container h2 {
-margin-top: 8px;
+    margin-top: 8px;
     text-align: center;
     font-size: 3.4vw;
 
@@ -347,7 +367,7 @@ margin-top: 8px;
 
 .project-list {
 
-margin-top: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -408,70 +428,70 @@ margin-top: 20px;
 /* ========= footer section styling =========== */
 
 
-footer{
+footer {
 
-background: skyblue;
+    background: skyblue;
 
-padding: 20px 0;
+    padding: 20px 0;
 }
 
-.footer-p1{
+.footer-p1 {
 
-font-family: sans-serif;
-font-size: 2vw;
-color: green;
-text-align: center;
-
-}
-
-
-.footer-p1 .icon{
-
-color: green;
-
+    font-family: sans-serif;
+    font-size: 2vw;
+    color: green;
+    text-align: center;
 
 }
 
 
-.footer-p2{
+.footer-p1 .icon {
 
-display: flex;
-justify-content: center;
+    color: green;
 
 
 }
 
 
+.footer-p2 {
 
-.footer-p2 a{
+    display: flex;
+    justify-content: center;
 
-
- 
-text-align: center;
-font-family: sans-serif;
-font-weight: 600;
-font-size: 20px;
-color: rgb(7, 8, 41);
-text-decoration: none;
-margin: 5px 0;
 
 }
 
-.footer-p2 a:hover{
+
+
+.footer-p2 a {
+
+
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(7, 8, 41);
+    text-decoration: none;
+    margin: 5px 0;
+
+}
+
+.footer-p2 a:hover {
 
 
     color: green;
-    
-    }
+
+}
 
 
-    .footer-p3{
+.footer-p3 {
 
 
-        font-family: sans-serif;
-        font-size: 1.5vw;
-        color: blue;
-        text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    color: blue;
+    text-align: center;
 
 
-    }
+}
