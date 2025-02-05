@@ -1,29 +1,36 @@
-
-
 @media (max-width: 768px) {
 
-/* ====== navbar responsive codwe ======== */
+    /* ====== navbar responsive codwe ======== */
 
-.nav{
+    .nav {
 
-    padding: 8px 0;
-
-    }
-
-    .logo{
-
-margin-left: 20px;
+        padding: 8px 0;
 
     }
 
-.logo>img{
+    .logo {
 
-height: 12vw;
-width: 12vw;
+        margin-left: 20px;
+
+    }
+
+    .logo>img {
+
+        height: 12vw;
+        width: 12vw;
 
 
-}
+    }
 
+
+    /* =============== intro section   ============================ */
+    .intro-btn {
+
+        position: relative;
+        top: 25vh;
+
+
+    }
 
 
     /* ==== Responsive nav bar button code ==== */
@@ -32,7 +39,7 @@ width: 12vw;
 
         display: block;
         margin-right: 16px;
-         
+
 
     }
 
@@ -42,7 +49,7 @@ width: 12vw;
         display: flex;
         flex-direction: column;
         top: 60px;
-       width: 50%;
+        width: 50%;
         background: skyblue;
         padding: 20px 0;
         transform: translateX(200%);
@@ -56,7 +63,7 @@ width: 12vw;
         font-size: 16px;
         color: whitesmoke;
     }
-    
+
 
 
     .active .nav-list {
@@ -66,15 +73,15 @@ width: 12vw;
 
     }
 
-   
+
 
     .mobile-navbar-icon1,
-.mobile-navbar-icon2 {
-   
-font-size: 42px;
+    .mobile-navbar-icon2 {
+
+        font-size: 42px;
 
 
-}
+    }
 
     .active .mobile-navbar-icon2 {
 
@@ -91,16 +98,104 @@ font-size: 42px;
 
     }
 
-/* ======project section using html css and js======== */
 
 
-.project-list {
+}
 
 
-overflow-x: auto;
+
+/* ===============  Desktop Responsive code  ============= */
+@media (min-width: 1000px) {
 
 
- }
+
+    /* ==========  intro section responsive code for desktop  =========== */
+
+    .intro-container {
+
+
+        height: 80vh;
+        background: url(./assets/saajnaa-img/sajan.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -90px;
+
+
+    }
+
+
+
+    .caption {
+
+        top: 15vh;
+
+
+
+    }
+
+
+    .p1 {
+
+        font-size: 6vw;
+        color: rgb(17, 16, 20);
+        text-align: left;
+        margin-right: 40px;
+
+    }
+
+
+    .p1 span {
+
+
+        color: whitesmoke;
+        font-size: 6vw;
+
+
+    }
+
+    .p2 {
+
+        color: rgb(9, 181, 234);
+
+
+    }
+
+
+    .p2 span {
+
+
+        color: rgb(249, 36, 4);
+
+    }
+
+    .p2,
+    span {
+
+
+        font-size: 4vw;
+        font-weight: 600;
+
+    }
+
+
+    .intro-btn {
+
+        position: relative;
+        top: 30vh;
+
+    }
+
+
+    /* =====================  footer responsive code  ======================= */
+
+
+    footer {
+
+
+        position: static;
+
+
+    }
 
 
 }
