@@ -23,7 +23,7 @@
        <!-- ===========Nav Bar Structure==================== -->
        <header>
 
-              <nav class="nav">
+              <nav class="nav active">
 
                      <div class="logo">
 
@@ -34,18 +34,25 @@
 
                      </div>
 
+                     <!-- <div class="github">
+
+                            <a href=""><img src="./assets/social-logo/github.png" alt="github logo"></a>
+
+
+                     </div> -->
+
                      <ul class="nav-list">
 
                             <li><a href="">Projects</a></li>
                             <li><a href="">Clients</a></li>
-                            <li><a href="">Blogs</a></li>
+                            <li><a href="blogs/blogs.html">Blogs</a></li>
                             <li class="about-me"><a href="">About Me</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#contact-container">Contact</a></li>
                      </ul>
 
-                     <div class="mobile-navbar-btn">
+                     <div class="mobile-navbar-btn ">
 
-                            <i class="ri-menu-fill mobile-navbar-icon1"></i>
+                            <i class="ri-menu-fill mobile-navbar-icon1"> </i>
                             <i class="ri-close-fill mobile-navbar-icon2"></i>
 
                      </div>
@@ -56,39 +63,27 @@
        </header>
 
 
-<!-- =========    floating social medias structure     ================ -->
-<div class="float-social-media">
+       <!-- =========    floating social medias structure     ================ -->
+       <div class="float-social-media">
 
-<div class="social-media">
+              <div class="social-media">
 
-<a href="www.github.com/saajnaa">github</a>
-<a href="www.linkdin.com/saajnaa.108">linkdin</a>
-<a href="www.twitter.com/saajnaa.108"> x.com </a>
-<a href="www.facebook.com/sajan1.com.np"> facebook</a>
-
-
-
-</div>
+                     <a href="www.github.com/saajnaa"><i class="ri-github-fill"></i></a>
+                     <a href="www.linkdin.com/saajnaa.108"><i class="ri-linkedin-fill"></i></a>
+                     <a href="www.twitter.com/saajnaa.108"><i class="ri-twitter-x-line"></i></a>
+                     <a href="www.facebook.com/sajan1.com.np"><i class="ri-facebook-line"></i></a>
 
 
 
-
-</div>
+              </div>
 
 
 
 
+       </div>
 
 
-
-
-
-
-
-
-
-
-       <!-- =====================intro-section=============== -->
+       <!-- ========================================intro-section=============== -->
        <div class="intro-container">
 
               <div class="caption">
@@ -112,24 +107,43 @@
 
 
 
+       <!--=================== projects   ========================= -->
 
-       <!-- ======== Contact Form Structure ======== -->
+       <div class="projects">
 
-       <div class="contact-container">
-              <h2>Let's Talk With Me</h2>
+              <h2>Let's Check Out My Projects</h2>
+              <div class="skills">
 
-              <form action="">
+                     <h2>frontend <br> projects</h2>
+                     <h2>backend <br> projects</h2>
+                     <h2>Ai integetion <br> on website</h2>
+                     <h2>Chat Bot <br> Application</h2>
+                     <h2>Chat <br> Application</h2>
+                     <h2> My <br> All Project</h2>
 
-                     <input type="text" name="name" placeholder="Enter Name" required><br>
 
-                     <input type="email" name="email" placeholder="Enter Email" required> <br>
+              </div>
+       </div>
 
-                     <input type="text" name="message" placeholder="Write Message" required>
+       <!-- ============================ Contact Form Structure ======== -->
 
-                     <input type="submit">
+       <div class="contact-container" id="contact-container">
 
-              </form>
+              <div class="contact-form">
+                     <h2>Let's Talk With Me</h2>
 
+                     <form action="">
+
+                            <input type="text" name="name" placeholder="Enter Name" required><br>
+
+                            <input type="email" name="email" placeholder="Enter Email" required> <br>
+
+                            <input id="message" type="text" name="message" placeholder="Write Message" required>
+
+                            <input id="submit" type="submit">
+
+                     </form>
+              </div>
        </div>
 
 
@@ -142,7 +156,7 @@
 
 
 
-                     <p class="footer-p3"> All Right Reserved 2024. </p>
+                     <p class="footer-p3"> All Right Reserved 2025. </p>
 
                      <p class="footer-p2">
 
@@ -158,7 +172,7 @@
        </div>
 
 
-       <!-- js code -->
+       <!--======================= js code ==========================-->
        <script src="script.js"></script>
 </body>
 
